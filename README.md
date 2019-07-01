@@ -10,7 +10,7 @@ Essential for graphic designers or users who work with large amounts of images
 ### If for some reason you do have any errors, please create an issue ticket, and I'll address it as quickly as I can.
 
 # Quick Usage
-### To Quickly resize any image into whatever resolution you'd like, all you have to do is to name the exe file your target resolution seperated by commas. For instance, 300,200 would resize any image you drop on it into that exact resolution
+### To Quickly resize any image into whatever resolution you'd like, all you have to do is to name the exe file your target resolution seperated by commas. For instance, 300,200.exe would resize any image you drop on it into that exact resolution
 
 
 # Full/Batch Usage
