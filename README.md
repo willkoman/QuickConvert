@@ -1,7 +1,7 @@
 # QuickConvert
- Quickly Converts an image or directory of images to a certain type, quality, and/or size
+Quickly Converts an image or directory of images to a certain type, quality, and/or size
  
- Essential for graphic designers or users who work with large amounts of images
+Essential for graphic designers or users who work with large amounts of images
 
 # Getting Started
 ### If you haven't already, please make sure you have .NET framework 4.7.2 installed <a href="https://dotnet.microsoft.com/download/thank-you/net472" target="_blank">here</a>
@@ -12,8 +12,8 @@
 
 # Usage
 ```PowerShell
-./QuickConvert <sourceimage/directory> <OutputType> <OutputDirectory> [Optional: -s Target Size] [Optional: -q Quality]
+./QuickConvert <sourceimage/directory> <OutputType> <OutputDirectory> [Optional: -s Target Size(length,width)] [Optional: -q Quality]
 ```
 ### OutputType can be one of the following: png, jpg, gif, bmp, tif, ico
-
-#### Note: QuickConvert can automatically detect whether you provide a directory or image and know whether to do a batch job or individual job
+## Do not put a space between the comma in length,width or your resize will not properly work
+#### Note: QuickConvert can automatically detect whether you provide a directory or image and know whether to do a batch job or individual job but if you're performing a directory job, please allow only image files in the path.
